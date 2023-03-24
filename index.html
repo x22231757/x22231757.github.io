@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rock Paper Scissors Game</title>
+		<link rel = "stylesheet" href = "style.css"/>
+	</head>
+	<body>
+		<div class="container">
+				<div class="row"> <!--row1-->
+					<div class="col-lg-12 show ">
+						<h1>Rock Paper Scissors Game</h1>
+						<h2>Select your hand gesture:</h2>
+						<p>
+							<ul>
+								<li>Rock wins against scissors.</li>
+								<li>Scissors win against paper.</li>
+								<li>Paper wins against rock.</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+				<div class="row"> 
+					<div class="col-lg-12 show ">
+						<div id="selection">
+							  <img src="Images/Rock.png" alt="Rock">
+							  <img src="Images/Paper.png" alt="Paper">
+							  <img src="Images/Scissors.png" alt="Scissors">
+								<form >
+									
+								  <input id = "userGesture1" type="button" value="Select Rock" onclick = "check('userGesture1')">
+								  <input id = "userGesture2" type="button" value="Select Paper" onclick = "check('userGesture2')">
+								  <input id = "userGesture3" type="button" value="Select Scissors" onclick = "check('userGesture3')">
+								</form> 
+						</div>
+					</div>
+				
+				</div>
+		</div>
+	<script src="script.js"></script> 
+	</body>
+	
+</html>
